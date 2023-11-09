@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
+    "declaration": true,
+    "declarationMap": false,
+    "esModuleInterop": true,
+    "inlineSourceMap": false,
+    // es2020 is what Node.JS v14 supports
+    // see https://github.com/tsconfig/bases/blob/main/bases/node14.json
+    "lib": ["ESNext", "dom"],
+    "listEmittedFiles": false,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "dist",
+    "pretty": true,
+    "resolveJsonModule": true,
+    "rootDir": "src",
+    "skipLibCheck": true,
+    "strict": true,
+    "sourceMap": false,
+    "traceResolution": false,
+    "types": ["node"]
+  },
+  "compileOnSave": false,
+  "include": ["./src"],
+  "exclude": ["node_modules", "dist"]
+}
