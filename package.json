@@ -27,7 +27,8 @@
 	"typings": "dist/declarations/index.d.ts",
 	"devDependencies": {
 		"@types/node": "^20.9.0",
-		"rimraf": "^5.0.5"
+		"rimraf": "^5.0.5",
+		"typescript": "^5.2.2"
 	},
 	"peerDependencies": {
 		"typescript": "^5.0.0",
