@@ -11,7 +11,7 @@ npm i -D vite-plugin-file-rename
 ## Usage
 
 ```js
-// vite.config.js
+// vite.config.mts
 import { defineConfig } from 'vite'
 import { fileRename } from 'vite-plugin-file-rename'
 
