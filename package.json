@@ -27,13 +27,11 @@
 	"typings": "dist/declarations/index.d.ts",
 	"devDependencies": {
 		"@types/node": "^20.9.0",
-		"bun-types": "latest",
 		"rimraf": "^5.0.5"
 	},
 	"peerDependencies": {
 		"typescript": "^5.0.0",
-		"vite": "^4.5.0",
-		"rollup": "^4.3.0"
+		"vite": "^4.5.0"
 	},
 	"keywords": [
 		"vite",
