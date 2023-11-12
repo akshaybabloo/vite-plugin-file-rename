@@ -1,12 +1,12 @@
 {
 	"name": "vite-plugin-file-rename",
 	"description": "A Vite plugin to rename files in the output directory.",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"module": "dist/index.js",
 	"type": "module",
 	"scripts": {
 		"build": "rimraf dist && tsc -p tsconfig.json",
-		"publish": "npm run build && npm publish --access public"
+		"deploy": "npm run build && npm publish --access public"
 	},
 	"files": [
 		"dist"
